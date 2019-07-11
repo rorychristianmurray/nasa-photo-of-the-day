@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <div
+      className="ui center aligned middle aligned grid"
+      style={
+        Object {
+          "height": "100vh",
+          "margin": "0 auto",
+          "marginTop": "40px",
+          "width": "80%",
+        }
+      }
+    >
+      <div
+        className="ui container"
+      >
+        <h2>
+          Nasa APOD
+        </h2>
+        <img
+          alt="NASA APOD"
+        />
+        <div
+          className="ui divider"
+        />
+        <div />
+      </div>
+      <div
+        className="ui divider"
+      />
+      <form
+        className="ui form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="equal width fields"
+        >
+          <div
+            className="field"
+          >
+            <label
+              htmlFor="form-input-control-first-name"
+            >
+              First name
+            </label>
+            <div
+              className="ui input"
+            >
+              <input
+                id="form-input-control-first-name"
+                onChange={[Function]}
+                placeholder="First name"
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            className="field"
+          >
+            <label
+              htmlFor="form-input-control-last-name"
+            >
+              Last name
+            </label>
+            <div
+              className="ui input"
+            >
+              <input
+                id="form-input-control-last-name"
+                onChange={[Function]}
+                placeholder="Last name"
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            className="field"
+          >
+            <label
+              htmlFor="form-select-control-gender"
+            >
+              Gender
+            </label>
+            <div
+              aria-expanded={false}
+              className="ui search selection dropdown"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseDown={[Function]}
+              role="combobox"
+            >
+              <input
+                aria-autocomplete="list"
+                autoComplete="off"
+                className="search"
+                id="form-select-control-gender"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+                tabIndex={0}
+                type="text"
+                value=""
+              />
+              <div
+                aria-atomic={true}
+                aria-live="polite"
+                className="default text"
+                role="alert"
+              >
+                Gender
+              </div>
+              <i
+                aria-hidden="true"
+                className="dropdown icon"
+                onClick={[Function]}
+              />
+              <div
+                className="menu transition"
+                role="listbox"
+              >
+                <div
+                  aria-checked={false}
+                  aria-selected={true}
+                  className="selected item"
+                  onClick={[Function]}
+                  role="option"
+                  style={
+                    Object {
+                      "pointerEvents": "all",
+                    }
+                  }
+                >
+                  <span
+                    className="text"
+                  >
+                    Male
+                  </span>
+                </div>
+                <div
+                  aria-checked={false}
+                  aria-selected={false}
+                  className="item"
+                  onClick={[Function]}
+                  role="option"
+                  style={
+                    Object {
+                      "pointerEvents": "all",
+                    }
+                  }
+                >
+                  <span
+                    className="text"
+                  >
+                    Female
+                  </span>
+                </div>
+                <div
+                  aria-checked={false}
+                  aria-selected={false}
+                  className="item"
+                  onClick={[Function]}
+                  role="option"
+                  style={
+                    Object {
+                      "pointerEvents": "all",
+                    }
+                  }
+                >
+                  <span
+                    className="text"
+                  >
+                    Other
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            htmlFor="form-textarea-control-opinion"
+          >
+            Opinion
+          </label>
+          <textarea
+            id="form-textarea-control-opinion"
+            onChange={[Function]}
+            onInput={[Function]}
+            placeholder="Opinion"
+            rows={3}
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            htmlFor="form-button-control-public"
+          >
+            Label with htmlFor
+          </label>
+          <button
+            className="ui button"
+            id="form-button-control-public"
+            onClick={[Function]}
+          >
+            Confirm
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
